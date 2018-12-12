@@ -24,7 +24,7 @@ class DetailView extends Component {
 
   render(props) {
     return (
-      <pre className="detail-view"> {JSON.stringify(this.state.detailView, undefined, 2)} </pre>
+      <pre className="detail-view"> {JSON.stringify(this.state.detailView, null, 4)} </pre>
     )
   }
 }
